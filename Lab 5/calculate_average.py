@@ -25,9 +25,11 @@ def calculate_average(numbers):
     count = len(numbers)
     average = total / count  
     return average 
-numbers = [3, 7, 10, 12, 14, 18]
+numbers = [10, 20, 30, 40, 50,]
 avg = calculate_average(numbers)
 print("The average is:", avg) 
+
+
 
 
 # # Example usage

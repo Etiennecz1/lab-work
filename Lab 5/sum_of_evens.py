@@ -23,7 +23,7 @@ def sum_of_evens(min_value, max_value):
     # Function implementation here ...
 
 def sum_of_evens(min_value, max_value):
-    total_sum = 0  # Initialize the sum variable
+    total_sum = 0  
     
     if min_value % 2 != 0:
         min_value += 1 
@@ -31,8 +31,8 @@ def sum_of_evens(min_value, max_value):
         total_sum += num 
     return total_sum
 
-result = sum_of_evens(5, 15)
-print(result)  # Output will be 50 (6 + 8 + 10 + 12 + 14)
+result = sum_of_evens(10, 13)
+print(result) 
 
 
 # # # Run code example

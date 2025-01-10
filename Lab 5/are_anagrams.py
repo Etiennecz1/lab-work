@@ -30,7 +30,7 @@ def are_anagrams(str1, str2):
 
 print(are_anagrams("listen", "silent"))  # Output: True
 print(are_anagrams("hello", "world"))    # Output: False
-print(are_anagrams("Dormitory", "Dirty room"))  # Output: True 
+
 
 ## Example 
 # print(are_anagrams("listen", "silent"))  # Expected output: True

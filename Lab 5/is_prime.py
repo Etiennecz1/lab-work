@@ -23,9 +23,9 @@ def is_prime(num):
              return False
         return True  # If no divisors were found, it's prime 
      
-print(is_prime(7))  # Output: True (7 is prime)
+print(is_prime(5))  # Output: True (5 is prime)
 print(is_prime(10)) # Output: False (10 is not prime)
-print(is_prime(11)) # Output: True (11 is prime)
+print(is_prime(11))  # Output: True (11 is prime)
 print(is_prime(1))  # Output: False (1 is not prime) return output
 
 
